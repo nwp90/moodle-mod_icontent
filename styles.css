@@ -127,7 +127,8 @@
 .path-mod-icontent .icontent-page .highcontrast .notesarea .fulltab .nav-tabs .active a:focus,
 .path-mod-icontent .icontent-page .highcontrast .notesarea .fulltab .nav-tabs a:hover,
 .path-mod-icontent .icontent-page .highcontrast .notesarea .fulltab .nav-tabs a:focus,
-.path-mod-icontent .icontent-page .highcontrast .questionsarea .icontentattemptsummary tbody tr:hover > td, .table-hover tbody tr:hover > th {
+.path-mod-icontent .icontent-page .highcontrast .questionsarea .icontentattemptsummary tbody tr:hover > td,
+.path-mod-icontent .icontent-page .table-hover tbody tr:hover > th {
 	background-color: #222;
 }
 .path-mod-icontent .icontent-page .highcontrast .notesarea .fulltab .nav-tabs a,
@@ -400,10 +401,10 @@
 	}
 }
 
-.pull-right{
+.path-mod-icontent .pull-right{
 	float: right !important;
 }
-.pull-left{
+.path-mod-icontent .pull-left{
 	float: left;
 }
 
@@ -473,11 +474,11 @@
     font-size: 16px;
 }
 /* List-Groups. Override Twitter Bootstrap */
-.list-group-item:first-child {
+.path-mod-icontent .list-group-item:first-child {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
-.list-group-item {
+.path-mod-icontent .list-group-item {
     background-color: #fff;
     border: 1px solid #ddd;
     display: block;
@@ -485,11 +486,11 @@
     padding: 10px 15px;
     position: relative;
 }
-.list-group-item > .badge {
+.path-mod-icontent .list-group-item > .badge {
     float: right;
 }
 /** Progress bar. Override Twitter Bootstrap */
-.progress {
+.path-mod-icontent .progress {
   height: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -499,7 +500,7 @@
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
           box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
 }
-.progress-bar {
+.path-mod-icontent .progress-bar {
   float: left;
   width: 0;
   height: 100%;
@@ -514,70 +515,70 @@
        -o-transition: width .6s ease;
           transition: width .6s ease;
 }
-.progress-striped .progress-bar,
-.progress-bar-striped {
+.path-mod-icontent .progress-striped .progress-bar,
+.path-mod-icontent .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   -webkit-background-size: 40px 40px;
           background-size: 40px 40px;
 }
-.progress.active .progress-bar,
-.progress-bar.active {
+.path-mod-icontent .progress.active .progress-bar,
+.path-mod-icontent .progress-bar.active {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
        -o-animation: progress-bar-stripes 2s linear infinite;
           animation: progress-bar-stripes 2s linear infinite;
 }
-.progress-bar-success {
+.path-mod-icontent .progress-bar-success {
   background-color: #5cb85c;
 }
-.progress-striped .progress-bar-success {
+.path-mod-icontent .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
-.progress-bar-info {
+.path-mod-icontent .progress-bar-info {
   background-color: #5bc0de;
 }
-.progress-striped .progress-bar-info {
+.path-mod-icontent .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
-.progress-bar-warning {
+.path-mod-icontent .progress-bar-warning {
   background-color: #f0ad4e;
 }
-.progress-striped .progress-bar-warning {
+.path-mod-icontent .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
-.progress-bar-danger {
+.path-mod-icontent .progress-bar-danger {
   background-color: #d9534f;
 }
-.progress-striped .progress-bar-danger {
+.path-mod-icontent .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
-.progress .progress-bar .sr-only{
+.path-mod-icontent .progress .progress-bar .sr-only{
 	position: unset;
 }
-#idicontentpages .text-uppercase{
+.path-mod-icontent #idicontentpages .text-uppercase{
 	text-transform: uppercase;
 }
 
-.highcontrast .nav-tabs .nav-link.active, .highcontrast .nav-tabs .nav-item.show .nav-link {
+.path-mod-icontent .highcontrast .nav-tabs .nav-link.active, .highcontrast .nav-tabs .nav-item.show .nav-link {
     background-color: inherit;
     border-bottom: 1px solid black !important;
 }
 
 /* CHANGING COLOR OF SELECTED TEXT */
-::-moz-selection {
+.path-mod-icontent ::-moz-selection {
 	background:#036;
 	color:#FFF;
 }
-::selection {
+.path-mod-icontent ::selection {
 	background:#036;
 	color:#FFF;
 }
